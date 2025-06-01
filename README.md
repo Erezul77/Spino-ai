@@ -1,47 +1,20 @@
-# SpiñO – Emotional Clarity Engine
+# 🧠 SpiñO: Spinozist Emotional Reflection Assistant
 
-🌀 *Reflect. Understand. Liberate.*
+**SpiñO** is an AI-powered assistant that guides users through a compassionate 5-step reflection inspired by Spinoza’s Ethics.
 
-**SpiñO** is an AI-powered emotional companion inspired by Spinoza’s *Ethics*. It guides users through their emotional states using structured, philosophical reflection.
+### 🌀 Five Stages of Reflective Guidance
+1. Empathic Resonance  
+2. Causal Deepening (Expose Inadequate Ideas)  
+3. Reconstruction of Adequate Understanding  
+4. Joyful Clarity (Understanding = Power)  
+5. Closure & Alignment with Nature
 
----
-
-## ✨ What is SpiñO?
-
-SpiñO helps users:
-- Detect emotional patterns (Joy, Sadness, Anger, Fear, Desire, Frustration)
-- Reflect step-by-step on the causes of those emotions
-- Move toward clarity, acceptance, and self-empowerment
-
----
-
-## 🧠 How it works
-
-1. Input any emotional or personal statement
-2. The system analyzes your emotional state
-3. A guided dialogue unfolds based on Spinoza’s theory of affects
-4. Through clarity, the user reaches greater emotional freedom
-
----
-
-## 🔧 Technologies
-
-- Python (Gradio app)
-- NLP-based emotional inference
-- Philosophy-inspired reflection engine
-
----
-
-## 🚀 Live Demo
-
-> [Coming Soon on Hugging Face Spaces](https://huggingface.co/spaces/Erezul77/spino-ai)
-
----
-
-## 📜 License
-
-MIT — free for use, improvement, and transformation.
-
----
-
-For collaborations or philosophical inquiries: **erez@noesis-net.org**
+### 💻 Run Locally
+```bash
+git clone https://github.com/YOUR_USERNAME/spino-ai.git
+cd spino-ai
+python -m venv venv
+source venv/bin/activate  # or .\venv\Scripts\activate on Windows
+pip install -r requirements.txt
+cp .env.example .env
+python app.py
